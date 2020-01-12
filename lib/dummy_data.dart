@@ -11,46 +11,46 @@ const DUMMY_CATEGORIES = const [
   Category(
     id: 'c2',
     title: 'Italian',
-    color: Colors.blue,
+    color: Colors.red,
   ),
   Category(
     id: 'c3',
     title: 'Italian',
-    color: Colors.blue,
+    color: Colors.purple,
   ),
   Category(
     id: 'c4',
     title: 'Italian',
-    color: Colors.blue,
+    color: Colors.pink,
   ),
   Category(
     id: 'c5',
     title: 'Italian',
-    color: Colors.blue,
+    color: Colors.amber,
   ),
   Category(
     id: 'c6',
     title: 'Italian',
-    color: Colors.blue,
+    color: Colors.cyanAccent,
   ),
   Category(
     id: 'c7',
     title: 'Italian',
-    color: Colors.blue,
+    color: Colors.teal,
   ),
   Category(
     id: 'c8',
     title: 'Italian',
-    color: Colors.blue,
+    color: Colors.tealAccent,
   ),
   Category(
     id: 'c9',
     title: 'Italian',
-    color: Colors.blue,
+    color: Colors.yellow,
   ),
   Category(
     id: 'c10',
     title: 'Italian',
-    color: Colors.blue,
+    color: Colors.yellowAccent,
   ),
 ];

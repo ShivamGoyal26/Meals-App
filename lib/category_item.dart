@@ -16,12 +16,14 @@ class CategoryItem extends StatelessWidget {
         gradient: LinearGradient(
           colors: [
             color.withOpacity(7),
-            color,  // THIS MEANS FULL OPACITY 
+            color, // THIS MEANS FULL OPACITY
           ],
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
         ),
-        borderRadius: BorderRadius.circular(15),
+        borderRadius: BorderRadius.circular(
+          15,
+        ),
       ),
     );
   }

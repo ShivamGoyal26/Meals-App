@@ -22,7 +22,7 @@ class CategoriesScreen extends StatelessWidget {
         ).toList(),
         gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
           maxCrossAxisExtent: 200,
-          // THIS IS THE WIDTH OF THE EACH ITEM IN THE GRID VIEW
+          // HERE IF THE DEVICE HAS 500 WIDTH THEN IT WILL HAVE THE 2 ITEM IN THE ROW AND SO ON ..
           childAspectRatio: 3 / 2,
           // THIS IS THE HEIGHT / WIDTH RATIO LIKE 300 HEIGHT AND 200 WIDTH IN THIS CASE
           crossAxisSpacing: 20,
