@@ -8,12 +8,10 @@ class CategoryItem extends StatelessWidget {
     this.catdata,
   );
   void selectCategory(BuildContext ctx) {
-    Navigator.of(ctx).push(MaterialPageRoute(builder: (_) {
-      return CategoryMealsScreen(
-        catdata.id,
-        catdata.title,
-      );
-    }));
+    Navigator.of(ctx).pushNamed(
+      CategoryMealsScreen.routeName,
+      arguments: catdata,
+    );
   }
 
   @override
