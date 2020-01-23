@@ -15,11 +15,10 @@ class CategoriesScreen extends StatelessWidget {
       body: GridView(
         padding: const EdgeInsets.all(15),
         // key: UniqueKey(),
-        children: DUMMY_CATEGORIES.map( 
+        children: DUMMY_CATEGORIES.map(
           (Category catData) {
             return CategoryItem(
-              catData.title,
-              catData.color,
+              catData
             );
           },
         ).toList(),
@@ -27,10 +26,9 @@ class CategoriesScreen extends StatelessWidget {
           maxCrossAxisExtent: 200,
           // HERE IF THE DEVICE HAS 500 WIDTH THEN IT WILL HAVE THE 2 ITEM IN THE ROW AND SO ON ..
           childAspectRatio: 3 / 2,
-        //   // THIS IS THE HEIGHT / WIDTH RATIO LIKE 300 HEIGHT AND 200 WIDTH IN THIS CASE
+          //   // THIS IS THE HEIGHT / WIDTH RATIO LIKE 300 HEIGHT AND 200 WIDTH IN THIS CASE
           crossAxisSpacing: 20,
           mainAxisSpacing: 20,
-        
         ),
       ),
     );
