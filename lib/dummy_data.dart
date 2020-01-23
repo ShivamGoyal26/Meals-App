@@ -10,57 +10,57 @@ const DUMMY_CATEGORIES = const [
   ),
   Category(
     id: 'c2',
-    title: 'Italian',
+    title: 'Burgers',
     color: Colors.red,
   ),
   Category(
     id: 'c3',
-    title: 'Italian',
+    title: 'Pizza',
     color: Colors.purple,
   ),
   Category(
     id: 'c4',
-    title: 'Italian',
+    title: 'Chinese',
     color: Colors.pink,
   ),
   Category(
     id: 'c5',
-    title: 'Italian',
+    title: 'Spicy',
     color: Colors.amber,
   ),
   Category(
     id: 'c6',
-    title: 'Italian',
+    title: 'Indian',
     color: Colors.cyanAccent,
   ),
   Category(
     id: 'c7',
-    title: 'Italian',
+    title: 'Usa Special',
     color: Colors.teal,
   ),
   Category(
     id: 'c8',
-    title: 'Italian',
+    title: 'Non-Veg',
     color: Colors.tealAccent,
   ),
   Category(
     id: 'c9',
-    title: 'Italian',
+    title: 'Rolls',
     color: Colors.yellow,
   ),
   Category(
     id: 'c10',
-    title: 'Italian',
+    title: 'Cakes',
     color: Colors.yellowAccent,
   ),
-   Category(
+  Category(
     id: 'c9',
-    title: 'Italian',
+    title: 'Dairy Products',
     color: Colors.red,
   ),
   Category(
     id: 'c10',
-    title: 'Italian',
+    title: 'Uk Special',
     color: Colors.blue,
   ),
 ];

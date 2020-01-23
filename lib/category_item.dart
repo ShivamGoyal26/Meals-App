@@ -10,20 +10,26 @@ class CategoryItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // return Text("Hello");
-    return Container(
-      padding: const EdgeInsets.all(15),
-      child: Text(title),
-      decoration: BoxDecoration(
-        gradient: LinearGradient(
-          colors: [
-            color.withOpacity(0.1),
-            color, // THIS MEANS FULL OPACITY
-          ],
-          begin: Alignment.topRight,
-          end: Alignment.bottomRight,
+    return InkWell(
+      onTap: () {},
+      splashColor: Colors.tealAccent,
+      borderRadius: BorderRadius.circular(15),
+      child: Container(
+        padding: const EdgeInsets.all(15),
+        child: Text(
+          title,
+          style: Theme.of(context).textTheme.title,
         ),
-        borderRadius: BorderRadius.circular(
-          15
+        decoration: BoxDecoration(
+          gradient: LinearGradient(
+            colors: [
+              color.withOpacity(0.1),
+              color, // THIS MEANS FULL OPACITY
+            ],
+            begin: Alignment.topRight,
+            end: Alignment.bottomRight,
+          ),
+          borderRadius: BorderRadius.circular(15),
         ),
       ),
     );
