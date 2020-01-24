@@ -20,8 +20,10 @@ class MyApp extends StatelessWidget {
           accentColor: Colors.tealAccent,
           canvasColor: Color.fromRGBO(255, 254, 229, 1),
           fontFamily: 'OpenSans',
+          
           textTheme: ThemeData.light().textTheme.copyWith(
                 body1: TextStyle(
+                  
                   color: Color.fromRGBO(20, 51, 51, 1),
                 ),
                 body2: TextStyle(
