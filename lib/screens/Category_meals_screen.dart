@@ -8,8 +8,8 @@ class CategoryMealsScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final Category catdata =
-        ModalRoute.of(context).settings.arguments as Category;
+    final Category catdata = ModalRoute.of(context).settings.arguments;
+
     final categoryMeals = DUMMY_MEALS.where((meal) {
       return meal.categories.contains(catdata.id);
     }).toList();
