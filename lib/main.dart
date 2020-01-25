@@ -16,16 +16,19 @@ class MyApp extends StatelessWidget {
         "/start": (_) => CategoriesScreen(),
         MealDetailScreen.routeName: (_) => MealDetailScreen(),
       },
+      onUnknownRoute: (settings) {
+        return MaterialPageRoute(
+          builder: (ctx) => CategoriesScreen(),
+        );
+      },
       initialRoute: "/start",
       theme: ThemeData(
           primarySwatch: Colors.teal,
-          accentColor: Colors.tealAccent,
+          accentColor: Colors.grey,
           canvasColor: Color.fromRGBO(255, 254, 229, 1),
           fontFamily: 'OpenSans',
-          
           textTheme: ThemeData.light().textTheme.copyWith(
                 body1: TextStyle(
-                  
                   color: Color.fromRGBO(20, 51, 51, 1),
                 ),
                 body2: TextStyle(
@@ -37,7 +40,6 @@ class MyApp extends StatelessWidget {
                   fontWeight: FontWeight.normal,
                 ),
               )),
-      
     );
   }
 }
